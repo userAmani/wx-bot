@@ -1,0 +1,29 @@
+{
+  "name": "wxbot-plugin",
+  "version": "0.0.1",
+  "description": "微信机器人插件版",
+  "author": "zwh",
+  "repository": {},
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "formidable": "^1.2.2",
+    "qiniu": "^7.3.1",
+    "wechaty": "^0.47.7",
+    "wechaty-plugin-contrib": "^0.14.12",
+    "wechaty-puppet-padlocal": "^0.4.2",
+    "wx-voice": "^0.2.1"
+  },
+  "devDependencies": {
+    "alibabacloud-nls": "^1.0.1",
+    "axios": "^0.26.1",
+    "crypto-js": "^4.1.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "log4node": "^0.1.6",
+    "node-schedule": "^2.1.0",
+    "puppeteer": "^13.6.0",
+    "request-promise": "^4.2.6",
+    "silk-sdk": "^0.2.2"
+  }
+}
